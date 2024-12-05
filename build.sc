@@ -7,7 +7,7 @@ import scalalib._
 // support BSP
 import mill.bsp._
 
-object nscscc-training-exercise-1 extends SbtModule { m =>
+object NSCSCCTrainingExercise_1 extends SbtModule { m =>
   override def millSourcePath = os.pwd
   override def scalaVersion = "2.13.12"
   override def scalacOptions = Seq(
